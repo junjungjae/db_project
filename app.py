@@ -41,7 +41,7 @@ def activesql():
     global sqlconnectstate
     global cursor
     global conn
-    conn = pymysql.connect(host='localhost', user='root', password='####', db='dbprac', charset='utf8')  # 다음과 같은 정보를 통해 sql 접속. 비밀번호의 경우 자신의 mysql 비밀번호를 입력하면 됨
+    conn = pymysql.connect(host='localhost', user='root', password='smile1996', db='dbprac', charset='utf8')  # 다음과 같은 정보를 통해 sql 접속. 비밀번호의 경우 자신의 mysql 비밀번호를 입력하면 됨
     cursor = conn.cursor()
     sqlconnectstate = 1
 
